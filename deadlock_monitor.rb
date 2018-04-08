@@ -11,7 +11,9 @@ class DeadlockMonitor
         array << path
     end
 
-    def locked?        
+    def locked? 
+        return false
+               
         if array.count == @size
             counts_arr = array.group_by(&:href).values.map(&:count)
             avg = counts_arr.reduce(0){|sum, e| sum += e} / counts_arr.count

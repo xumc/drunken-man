@@ -18,5 +18,9 @@ class Log
         puts msg
         @logger.info msg
     end
+
+    def close
+        @logger.close
+    end
 end
 
