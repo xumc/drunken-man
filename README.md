@@ -1,7 +1,9 @@
 # drunken-man
-drunken-man is a web automation test tool, it can do tests randomly. No need to write test cases.
 
+drunken-man is a automation tool which is designed to do discovery test.
 
-# todo
-1. <Selenium::WebDriver::Error::UnknownError: unknown error: unsupported protocol
-
+# TODO
+1. scope limiation
+2. login
+3. deadlock monitor
+4. strategy rules
